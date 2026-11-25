@@ -5,7 +5,11 @@ An address book for Obsidian. Import a `.vcf` file and every contact becomes a n
 - **Import**: pick (or drop) a `.vcf` exported from iPhone, macOS Contacts, Google Contacts or Outlook (vCard 2.1, 3.0 and 4.0). A preview shows how many people are in the file, how many are new and how many are already in the address book, then you confirm.
 - **Re-import is additive**: months later, load an updated file and only the **new** people are added. Existing notes are never edited, and people missing from the new file are never removed.
 - **Address book view**: contacts grouped by letter, with search over name, company, phone and e-mail. Click to open the note beside the list; ⌘/Ctrl-click for a new tab.
-- English and Italian. Works on mobile.
+- English and Italian. Built to work on mobile too (`isDesktopOnly` is false), but not tested there yet.
+
+![The Rolodex address book next to a contact note](docs/address-book.png)
+
+*The A–Z list on the left, the note of the selected contact on the right. Screenshot taken in Obsidian on a throwaway vault with made-up contacts; the property names inside the note are shown in Obsidian's own language (Italian here).*
 
 ## What each note looks like
 
